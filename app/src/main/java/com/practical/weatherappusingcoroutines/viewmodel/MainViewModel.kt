@@ -31,7 +31,7 @@ class MainViewModel : ViewModel() {
        weatherloading.value = true
 
    // In the place of viewmodelscope , we can also try it Global scope..but it ends with after the application flow
-      viewModelScope.launch(Dispatchers.Main) {
+      GlobalScope.launch(Dispatchers.Main) {
            val result = WeatherApiService.getdataApi().create(WeatherApi::class.java)
           // val response = result.getdata(cityName = cityName)
           try{
