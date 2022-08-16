@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Weather App using coroutines</string>
+    <string name="error">error_message</string>
+    <string name="city_name">City Name</string>
+</resources>
