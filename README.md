@@ -1,2 +1,2 @@
 # firstrepo
-basic demo
+weather update using kotlin
